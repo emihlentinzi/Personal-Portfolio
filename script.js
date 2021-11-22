@@ -54,3 +54,6 @@ $(document).ready(function(){
         }
     });
 });
+$redColor: rgba(244,67,54,1);
+
+$blueColor:rgba(33,150,243,1);

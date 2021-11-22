@@ -622,6 +622,7 @@ footer{
     padding: 15px 23px;
     color: #fff;
     text-align: center;
+
 }
 footer span a{
     color: #B406B3;
@@ -630,6 +631,95 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
+
+.flex-center {
+  display: -webkit-box;
+
+  display: -webkit-flex;
+
+  display: -ms-flexbox;
+
+  display: flex;
+
+  -webkit-box-pack: center;
+
+  -webkit-justify-content: center;
+
+      -ms-flex-pack: center;
+
+          justify-content: flex-start;
+
+  -webkit-box-align: center;
+
+  -webkit-align-items: center;
+
+      -ms-flex-align: center;
+
+          align-items:flex-start;
+
+}
+
+
+.icon-3d {
+
+  padding: 10px;
+
+  -webkit-animation: icon3d 200ms 10;
+
+  animation: icon3d 200ms 10;
+
+  color: #fff;
+}
+
+.icon-3d:hover {
+
+    -webkit-animation: icon3d 200ms infinite;
+
+          animation: icon3d 200ms infinite;
+
+  }
+
+
+
+ 
+
+@keyframes icon3d {
+
+  0% {
+
+    text-shadow: 5px 4px red, -5px -6px blue;
+
+  }
+
+  25% {
+
+    text-shadow: -5px -6px red, 5px 4px blue;
+
+  }
+
+  50% {
+
+    text-shadow: 5px -4px red, -8px 4px blue;
+
+  }
+
+  75% {
+
+    text-shadow: -8px -4px red, -5px -4px blue;
+
+  }
+
+  100% {
+
+    text-shadow: -5px 0 red, 5px -4px blue;
+
+  }
+
+}
+
+
+
+
 
 /* responsive media query start */
 @media (max-width: 1104px) {
