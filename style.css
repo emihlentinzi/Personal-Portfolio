@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Rancho&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -11,7 +12,6 @@
   padding: 0 80px;
   margin: auto;
 }
-
 
 /* Navbar style */
 .navbar{
@@ -33,16 +33,9 @@
 }
 .navbar .logo a {
   color: #fff;
-  font-size: 35px;
-  font-weight: 600;
-  font-style: oblique;
-}
-.navbar .logo a span{
-  color: #B406B3;
-  transition: all 0.3s ease;
-}
-.navbar.sticky .logo a span{
-  color: #fff;
+  font-size: 47px;
+  font-weight: 300;
+  font-family: 'Rancho', cursive;
 }
 .navbar .menu li{
   list-style: none;
@@ -62,7 +55,6 @@ color: #B406B3 ;
 color: #fff;
 }
 
-
 /* Menu btn style */
 .menu-btn{
   color: #fff;
@@ -70,7 +62,6 @@ color: #fff;
   cursor: pointer;
   display: none;
 }
-
 .scroll-up-btn{
   position: fixed;
   height: 45px;
@@ -98,7 +89,6 @@ color: #fff;
 .scroll-up-btn:hover{
   filter: brightness(90%);
 }
-
 
 /* Home style */
 .home{
@@ -145,8 +135,6 @@ margin: 5px 0;
   background: none;
 }
 
-
-
 /* About styling */
 section{
   padding: 100px 0;
@@ -157,11 +145,11 @@ section{
 .about .title{
   position: relative;
   text-align: center;
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 500;
   margin-bottom: 60px;
   padding-bottom: 20px;
-  font-family: 'Railway', sans-serif;
+  font-family: 'Rancho', cursive;
 }
 .about .title::before{
   content: "";
@@ -183,6 +171,7 @@ section{
   padding: 5px;
   background: #fff;
   transform: translateX(-50%);
+  font-family: 'Railway', sans-serif;
 }
 .about .about-content{
   display: flex;
@@ -235,17 +224,15 @@ section{
   background: none;
 }
 
-
-
 /* Education styling */
 .education .title{
   position: relative;
   text-align: center;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 500;
   margin-bottom: 60px;
   padding-bottom: 20px;
-  font-family: 'Railway', sans-serif;
+  font-family: 'Rancho', cursive;
 }
 .education .title::before{
   content: "";
@@ -267,6 +254,7 @@ section{
   padding: 5px;
   background: #fff;
   transform: translateX(-50%);
+  font-family: 'Railway', sans-serif;
 }
 .education .box-container{
     display: flex;
@@ -295,7 +283,6 @@ section{
   font-weight: 600;
   margin-bottom: -10px;
   font-family: 'Dongle', sans-serif;
-
 }
 .education .box-container .box p{
   font-size: 25px;
@@ -317,9 +304,6 @@ section{
     background:#B406B3;
 }
 
-
-
-
 /* skills section styling */
 .skills .skills-content{
   display: flex;
@@ -330,11 +314,11 @@ section{
 .skills .title{
   position: relative;
   text-align: center;
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 500;
   margin-bottom: 60px;
   padding-bottom: 20px;
-  font-family: 'Railway', sans-serif;
+  font-family: 'Rancho', cursive;
 }
 .skills .title::before{
   content: "";
@@ -356,6 +340,7 @@ section{
   padding: 5px;
   background: #fff;
   transform: translateX(-50%);
+  font-family: 'Railway', sans-serif;
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -373,7 +358,6 @@ section{
     font-family: 'Dongle', sans-serif;
     font-weight: 600;
     font-size: 28px;
-
 }
 .skills .skills-content .left a{
     display: inline-block;
@@ -450,17 +434,15 @@ section{
     width: 88%;
 }
 
-
-
 /* Contact styling */
 .contact .title{
   position: relative;
   text-align: center;
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 500;
   margin-bottom: 60px;
   padding-bottom: 20px;
-  font-family: 'Railway', sans-serif;
+  font-family: 'Rancho', cursive;
 }
 .contact .title::before{
   content: "";
@@ -473,7 +455,7 @@ section{
   transform: translateX(-50%);
 }
 .contact .title::after{
-  content: "contact details";
+  content: "lets get in touch";
   position: absolute;
   bottom: -12px;
   left: 50%;
@@ -482,6 +464,7 @@ section{
   padding: 5px;
   background: #fff;
   transform: translateX(-50%);
+  font-family: 'Railway', sans-serif;
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
@@ -581,8 +564,6 @@ section{
   background: none;
 }
 
-
-
 /* footer section styling */
 footer{
     background: #B406B3;
@@ -597,155 +578,99 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
-
 .flex-center {
   display: -webkit-box;
-
   display: -webkit-flex;
-
   display: -ms-flexbox;
-
   display: flex;
-
   -webkit-box-pack: center;
-
   -webkit-justify-content: center;
-
-      -ms-flex-pack: center;
-
-          justify-content: flex-start;
-
+  -ms-flex-pack: center;
+  justify-content: flex-start;
   -webkit-box-align: center;
-
   -webkit-align-items: center;
-
-      -ms-flex-align: center;
-
-          align-items:flex-start;
-
+  -ms-flex-align: center;
+  align-items:flex-start;
 }
 .icon-3d {
-
   padding: 10px;
-
   -webkit-animation: icon3d 200ms 10;
-
   animation: icon3d 200ms 10;
-
   color: #fff;
 }
 .icon-3d:hover {
-
     -webkit-animation: icon3d 200ms infinite;
-
-          animation: icon3d 200ms infinite;
-
+    animation: icon3d 200ms infinite;
   }
 @keyframes icon3d {
-
   0% {
-
-    text-shadow: 5px 4px rgb(255, 0, 149), -5px -6px cadetblue;
-
+    text-shadow: 5px 4px rgb(255, 0, 149), -5px -6px cadetblue,  5px -4px #9D42AF;
   }
 
   25% {
-
-    text-shadow: -5px -6px rgb(255, 0, 149), 5px 4px cadetblue;
-
+    text-shadow: -5px -6px rgb(255, 0, 149), 5px 4px cadetblue,  5px -4px #9D42AF;
   }
 
   50% {
-
-    text-shadow: 5px -4px rgb(255, 0, 149), -8px 4px cadetblue;
-
+    text-shadow: 5px -4px rgb(255, 0, 149), -8px 4px cadetblue,  5px -4px #9D42AF;
   }
 
   75% {
-
-    text-shadow: -8px -4px rgb(255, 0, 149), -5px -4px cadetblue;
-
+    text-shadow: -8px -4px rgb(255, 0, 149), -5px -4px cadetblue,  5px -4px #9D42AF;
   }
 
   100% {
-
-    text-shadow: -5px 0 rgb(255, 0, 149), 5px -4px cadetblue;
-
+    text-shadow: -5px 0 rgb(255, 0, 149), 5px -4px cadetblue,  5px -4px #9D42AF;
   }
-
 }
 
-
-
-
-
 /* responsive media query start */
-
 @media (max-width:1200px){
-
   html{
       font-size: 55%;
   }
-
   .home{
       padding:1rem 4rem;
   }
-
 }
-
 @media (max-width:991px){
-
  header{
      left:-120%;
  }
-
  #menu{
      display: block;
  }
-
  header.toggle{
   left:0%;
  }
-
  body{
      padding:0;
  }
-
 }
 @media (max-width:768px){
-
   html{
       font-size: 50%;
   }
-
 }
-
 @media (max-width:400px){
-
   header{
       width: 100vw;
   }
-
   .heading{
       margin:0 3rem;
   }
-
   .about .row .counter .box{
       width: 100%;
   }
-
   .education .box-container .box{
       width:100%;
   }
-
   .portfolio .box-container .box{
       width:100%;
   }
-
   .contact .row form{
       margin:3rem 0;
   }
-
 }
 @media (max-width: 1104px) {
     .about .about-content .left img{
@@ -812,7 +737,6 @@ footer span a:hover{
     .about .about-content .right{
         flex: 100%;
     }
-
     .skills .skills-content .column,
     .contact .contact-content .column{
         width: 100%;
@@ -833,7 +757,6 @@ footer span a:hover{
         font-size: 20px;
     }
 }
-
 @media (max-width: 500px) {
     .home .home-content .text-2{
         font-size: 50px;
